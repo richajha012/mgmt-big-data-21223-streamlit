@@ -18,7 +18,6 @@ Firstly, we created an API. We used Flask, a web framework for Python that provi
 After successfully creating the REST API, the next step was to create a user interface. A user interface is what the final user will experience on the web app. It is built upon a skeleton code which is the REST API. For this purpose, we used the Streamlit framework, in which you can build a browser-based UI using only Python code. Streamlit contains built-in widgets for user input like image-uploading, sliders, text input, and other familiar HTML elements like checkboxes and radio buttons.  
 
 Next, we created a Postgres database on Google Cloud. PostgreSQL is a powerful, open-source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads. It comes with many features aimed to help developers build applications, administrators to protect data integrity and build fault-tolerant environments, and help you manage your data no matter how big or small the dataset. We took the following steps to create the database:  
-
 Go to the Cloud SQL Instances page. 
 
 Select the project and click Continue. 
