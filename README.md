@@ -1,23 +1,15 @@
-# Assignment 3 : MGMT 590, Production Scale Data Products, Summer 2021
+# Project :Bigdata
 
 ## Creating Flask Application - Question Answering
 
-Purpose of the this hands-on project was to create a REST API inference server that serves inferences from a Transformers NLP model
-The app is deployed at: https://mgmt590-assignment3-streamlit-5tqitwte4q-uc.a.run.app
 
-![sqlite-python-flask](./images/workingwithstfileuploads_streamlit_jcharistech.png)
-
-![google cloud](./images/gcl.png)
-
-## Learning Outcomes
-
-The objective of this project was to deploy a web app created on the foundation of a REST API created previously. The webapp integrates Natural Language Processing algorithms such as the Hugging Face Transformers to enable automated Question Answering. In brief, Question Answering is method of information retrieval that uses Machine Learning to extract answers for questions asked by humans in natural language. In Extractive Question Answering, a context is provided so that the model can refer to it and make predictions on where the answer lies within the passage.  
-
-Firstly, we created an API. We used Flask, a web framework for Python that provides functionality for building web applications, including managing HTTP requests and rendering templates. The advantage of using Flask is that applications tend to be written on a blank canvas, so to speak, and so are more suited to a contained application such as our prototype API. Further, we used the prevailing design philosophy of modern APIs called REST. REST is based on four methods defined by the HTTP protocol: POST, GET, PUT, and DELETE. These correspond to the four traditional actions performed on data in a database: CREATE, READ, UPDATE, and DELETE. We finally tested our REST API on Google Cloud Run and got desirable results. 
+## Learning
+ 
+Firstly, I created an API. I used Flask, a web framework for Python that provides functionality for building web applications, including managing HTTP requests and rendering templates. The advantage of using Flask is that applications tend to be written on a blank canvas, so to speak, and so are more suited to a contained application such as our prototype API. Further, I used the prevailing design philosophy of modern APIs called REST. REST is based on four methods defined by the HTTP protocol: POST, GET, PUT, and DELETE. These correspond to the four traditional actions performed on data in a database: CREATE, READ, UPDATE, and DELETE. I finally tested our REST API on Google Cloud Run and got desirable results. 
 
 After successfully creating the REST API, the next step was to create a user interface. A user interface is what the final user will experience on the web app. It is built upon a skeleton code which is the REST API. For this purpose, we used the Streamlit framework, in which you can build a browser-based UI using only Python code. Streamlit contains built-in widgets for user input like image-uploading, sliders, text input, and other familiar HTML elements like checkboxes and radio buttons.  
 
-Next, we created a Postgres database on Google Cloud. PostgreSQL is a powerful, open-source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads. It comes with many features aimed to help developers build applications, administrators to protect data integrity and build fault-tolerant environments, and help you manage your data no matter how big or small the dataset. We took the following steps to create the database:  
+Next, I created a Postgres database on Google Cloud. PostgreSQL is a powerful, open-source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads. It comes with many features aimed to help developers build applications, administrators to protect data integrity and build fault-tolerant environments, and help you manage your data no matter how big or small the dataset. I took the following steps to create the database:  
 Go to the Cloud SQL Instances page. 
 
 Select the project and click Continue. 
@@ -230,7 +222,7 @@ You can delete a model from the app by choosing this option.
 ![Question Answering](./images/QA_Model.PNG)
 
 
-We added a file uploader where we upload a file and get answer based on question and context
+I added a file uploader where we upload a file and get answer based on question and context
 
 ![file_upload](./images/file_upload.png)
 
